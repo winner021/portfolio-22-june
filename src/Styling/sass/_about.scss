@@ -1,0 +1,48 @@
+.About_container{
+    background-color: black;
+    
+    h2{
+        font-size: 5rem;
+        padding-top: 5rem;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 5px;
+        color: rgb(191, 55, 55);
+       
+    }
+    .About_cont{
+        display: flex;
+        justify-content: space-between;
+        .image{
+            margin-top: 20rem;
+            margin-left: 14rem;
+            
+            img{
+                height: 45rem;
+                width: 50rem;
+                border-radius: 100%
+                
+             
+            }
+        }
+        .para{
+        
+            h2{
+                margin-top: 10rem;
+                max-width: 30rem;
+                margin-left: 12rem;
+                margin-bottom:4rem;
+            }
+            p{
+                margin-left: 10rem;
+                color: rgb(102, 102, 102);
+                font-size: 2.2rem;
+                margin-bottom: 2rem;
+                max-width: 70rem;
+                padding-left: 3rem;
+                line-height: 1.3;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}

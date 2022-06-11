@@ -1,0 +1,109 @@
+.Portfolio{
+    background-color: rgb(0, 0, 0);
+   
+    color: White;
+    h1{
+        padding-top: 6rem;
+        display: flex;
+        justify-content: center;
+        font-size: 6rem;
+        letter-spacing: 4px;
+        color: red;
+        font-weight: 300;
+    }
+    .content{
+        .grid_one{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 4rem;
+            .card{
+                .card_image{
+                    img{
+                        height: 27rem;
+                        margin-left: 12rem;
+                    }
+                    position: absolute;
+                }
+                .Project_detail{
+                    background-color: rgb(30, 30, 30);
+                    margin-left: 12rem;
+                    max-width: 54.1rem;
+                    height: 27rem;
+                    position: relative;
+                    transition: all 0.4s;
+                    .Project{
+                        font-size: 8rem;
+                        padding: 1rem;
+                        color: red;
+                        margin-bottom: 4rem;
+
+
+                    }
+                    .tech{
+                        font-size: 1.8rem;
+                        padding: 1rem;
+                        color: rgb(94, 94, 94);
+                    }
+                    &:hover{
+                       opacity: 100%;
+                    }
+
+                }
+            }
+
+
+        }
+        .grid_two{
+            display: grid;
+            grid-template-columns: 1fr ;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 4rem;
+           
+            .card{
+                margin-bottom: 8rem;
+                margin-top: 2rem;
+               
+                .card_image{
+                    img{
+                        height: 27rem;
+                        margin-left: 12rem;
+                    }
+                    position: absolute;
+                    
+                }
+                .Project_detail{
+                    background-color: rgb(30, 30, 30);
+                    margin-left: 12rem;
+                    max-width: 56rem;
+                    height: 25rem;
+                    position: relative;
+                    transition: all 0.4s;
+                    .Project{
+                        font-size: 8rem;
+                        padding: 1rem;
+                        color: red;
+                        margin-bottom: 4rem;
+
+
+                    }
+                    .tech{
+                        font-size: 1.8rem;
+                        padding: 1rem;
+                        color: rgb(94, 94, 94);
+                    }
+                    &:hover{
+                       opacity: 100%;
+                    }
+
+                }
+               
+            }
+        }
+    }
+}
+
+.port{
+    opacity: 0;
+
+}

@@ -1,0 +1,51 @@
+.Contact{
+  background-color:rgb(25, 25, 25) ;
+  height: 50vh;
+  .Contact_container{
+      h1{
+        padding-top: 2rem;
+        font-size: 3.5rem;
+        display: flex;
+        justify-content: center;
+        color: red;
+        letter-spacing: 4px;
+        font-weight: 400;
+
+      }
+      .grid{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          .social{
+              font-size: 5rem;
+              margin-left: 15rem;
+              margin-top: 10rem;
+              border-right: 2px solid rgb(255, 0, 0);
+   
+              i{
+                  margin-right: 4rem;
+                  color: red;
+              }
+          }
+          .contact{
+            font-size: 2.5rem;
+            margin-left: 5rem;
+            margin-top: 10rem;
+            border-right: 2px solid rgb(255, 0, 0);
+            color: red;
+            font-weight: 300;
+            
+            
+          }
+          .map{
+              img{
+                  height: 27rem;
+                  margin-left: 1rem;
+                  
+                         }
+          }
+      }
+      
+      
+
+  }
+}
