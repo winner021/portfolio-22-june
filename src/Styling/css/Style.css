@@ -372,7 +372,8 @@ body {
       margin-top: -20rem; }
       .About_container .About_cont .image {
         margin-left: 14rem;
-        padding-top: 20rem; }
+        padding-top: 20rem;
+        margin-bottom: 15rem; }
         .About_container .About_cont .image img {
           height: 80rem;
           width: 80rem;
@@ -383,19 +384,21 @@ body {
       .About_container .About_cont .para {
         margin-top: -30rem;
         padding-bottom: 10rem;
-        padding-right: 5rem; }
+        padding-right: 5rem;
+        font-size: 20rem; }
         .About_container .About_cont .para h2 {
           margin-top: 10rem;
           max-width: 100vw;
           margin-left: 10rem;
-          margin-bottom: 4rem;
+          margin-bottom: 10rem;
           text-align: center;
           margin-top: -8rem;
           margin-bottom: 6rem; }
         .About_container .About_cont .para p {
           color: #666666;
           max-width: 100vw;
-          font-size: 2.2rem;
+          font-size: 5rem;
+          margin-bottom: 5rem;
           max-width: auto;
           padding-left: 3rem;
           line-height: 1.3;
