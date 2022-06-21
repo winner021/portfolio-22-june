@@ -30,7 +30,7 @@
             font-size: 2.5rem;
             margin-left: 5rem;
             margin-top: 10rem;
-            border-right: 2px solid rgb(255, 0, 0);
+           
             color: red;
             font-weight: 300;
             
@@ -48,4 +48,15 @@
       
 
   }
+}
+
+
+@media(max-width:37rem){
+
+  .Contact{
+    background-color:rgb(25, 25, 25) ;
+    height: 30vh;
+  
+  }
+
 }

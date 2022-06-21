@@ -410,6 +410,8 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         margin-bottom: 8rem;
         padding: 10rem; }
+        .technology_container .content .Content-container .txt .grid .tech img {
+          height: 22rem; }
         .technology_container .content .Content-container .txt .grid i {
           font-size: 20rem;
           margin-right: 2rem;
@@ -490,7 +492,8 @@ body {
         .About_container .About_cont .para p {
           color: #666666;
           max-width: 100vw;
-          font-size: 7rem;
+          font-size: 6rem;
+          text-align: center;
           margin-bottom: 5rem;
           max-width: auto;
           padding-left: 3rem;
@@ -576,6 +579,14 @@ body {
 .port {
   opacity: 0; }
 
+@media (max-width: 37rem) {
+  .Portfolio {
+    margin-top: -10rem;
+    padding-bottom: 20rem; }
+    .Portfolio h1 {
+      padding-top: 15rem;
+      padding-bottom: 10rem; } }
+
 .Contact {
   background-color: #191919;
   height: 50vh; }
@@ -602,9 +613,13 @@ body {
       font-size: 2.5rem;
       margin-left: 5rem;
       margin-top: 10rem;
-      border-right: 2px solid red;
       color: red;
       font-weight: 300; }
     .Contact .Contact_container .grid .map img {
       height: 27rem;
       margin-left: 1rem; }
+
+@media (max-width: 37rem) {
+  .Contact {
+    background-color: #191919;
+    height: 30vh; } }
