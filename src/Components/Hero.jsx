@@ -5,7 +5,6 @@ import Header from './Header'
 import { useEffect } from 'react'
 import Typed from 'react-typed';
 import sound from "../assest/video/sound.mp3"
-import ReactAudioPlayer from 'react-audio-player'
 
 
 const Hero=()=>{
@@ -24,11 +23,7 @@ const Hero=()=>{
 <Header/>
 
 
-<ReactAudioPlayer
-  src={sound}
-  autoPlay
-  controls
-/>
+
 <div className="content_container">
 
 <div className="main">
