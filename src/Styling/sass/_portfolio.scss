@@ -1,6 +1,6 @@
 .Portfolio{
     background-color: rgb(0, 0, 0);
-   
+    
     color: White;
     h1{
         padding-top: 6rem;
@@ -12,6 +12,7 @@
         font-weight: 300;
     }
     .content{
+        
         .grid_one{
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -21,13 +22,14 @@
                     img{
                         height: 27rem;
                         margin-left: 12rem;
+                        max-width: 50rem;
                     }
                     position: absolute;
                 }
                 .Project_detail{
                     background-color: rgb(30, 30, 30);
                     margin-left: 12rem;
-                    max-width: 54.1rem;
+                    max-width: 50rem;
                     height: 27rem;
                     position: relative;
                     transition: all 0.4s;
@@ -59,7 +61,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             margin-top: 4rem;
-           
+           background-color: black;
             .card{
                 margin-bottom: 8rem;
                 margin-top: 2rem;
@@ -68,6 +70,7 @@
                     img{
                         height: 27rem;
                         margin-left: 12rem;
+                        max-width: 50rem;
                     }
                     position: absolute;
                     
@@ -75,7 +78,7 @@
                 .Project_detail{
                     background-color: rgb(30, 30, 30);
                     margin-left: 12rem;
-                    max-width: 56rem;
+                    max-width: 50rem;
                     height: 25rem;
                     position: relative;
                     transition: all 0.4s;
@@ -92,8 +95,10 @@
                         padding: 1rem;
                         color: rgb(94, 94, 94);
                     }
+                     display: block;
                     &:hover{
                        opacity: 100%;
+                       display: block;
                     }
 
                 }
@@ -107,3 +112,4 @@
     opacity: 0;
 
 }
+

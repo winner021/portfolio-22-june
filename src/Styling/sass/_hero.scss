@@ -1,7 +1,7 @@
 .Hero{
    
     height: 90vh;
-   
+    width: 100vw;
     video{
         
         object-fit: cover;
@@ -10,6 +10,7 @@
         position: absolute;
         top: 0;
         left: 0;
+        right: 0;
     }
     .content{
         position: relative;
@@ -22,7 +23,16 @@
         top: 0;
         height: 90vh;
       
-       
+        audio{
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            margin-left: 40%;
+            transform:rotate(270deg);
+            margin-top: -33rem;
+            top:20rem ;
+            
+        }
         .content_container{
             display: flex;
             justify-content: space-between;

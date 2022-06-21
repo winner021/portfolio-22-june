@@ -1,23 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-right: 0%;
+  padding-right: 0%; }
+
 html {
   font-size: 62.5%; }
 
 body {
   font-family: 'Archivo', sans-serif; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+@media (max-width: 79.81rem) {
+  html {
+    font-size: 60%; } }
+
+@media (max-width: 75.81rem) {
+  html {
+    font-size: 40%; } }
+
+@media (max-width: 52rem) {
+  html {
+    font-size: 37%; } }
+
+@media (max-width: 47.81rem) {
+  html {
+    font-size: 34%; } }
+
+@media (max-width: 44.81rem) {
+  html {
+    font-size: 30%; } }
+
+@media (max-width: 40.12rem) {
+  html {
+    font-size: 28%; } }
+
+@media (max-width: 37.12rem) {
+  html {
+    font-size: 24%; } }
+
+@media (max-width: 32.125rem) {
+  html {
+    font-size: 20%; } }
+
+@media (max-width: 25.81rem) {
+  html {
+    font-size: 18%; } }
+
+@media (max-width: 23.31rem) {
+  html {
+    font-size: 15%; } }
 
 .Hero {
-  height: 90vh; }
+  height: 90vh;
+  width: 100vw; }
   .Hero video {
     object-fit: cover;
     width: 100vw;
     height: 90vh;
     position: absolute;
     top: 0;
-    left: 0; }
+    left: 0;
+    right: 0; }
   .Hero .content {
     position: relative;
     overflow: hidden;
@@ -162,7 +207,6 @@ body {
   opacity: 0.5; }
 
 .technology_container {
-  height: 100vh;
   background-color: #111111; }
   .technology_container .content h1 {
     padding-top: 5rem;
@@ -258,11 +302,12 @@ body {
       position: absolute; }
       .Portfolio .content .grid_one .card .card_image img {
         height: 27rem;
-        margin-left: 12rem; }
+        margin-left: 12rem;
+        max-width: 50rem; }
     .Portfolio .content .grid_one .card .Project_detail {
       background-color: #1e1e1e;
       margin-left: 12rem;
-      max-width: 54.1rem;
+      max-width: 50rem;
       height: 27rem;
       position: relative;
       transition: all 0.4s; }
@@ -282,7 +327,8 @@ body {
     grid-template-columns: 1fr;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 4rem; }
+    margin-top: 4rem;
+    background-color: black; }
     .Portfolio .content .grid_two .card {
       margin-bottom: 8rem;
       margin-top: 2rem; }
@@ -290,14 +336,16 @@ body {
         position: absolute; }
         .Portfolio .content .grid_two .card .card_image img {
           height: 27rem;
-          margin-left: 12rem; }
+          margin-left: 12rem;
+          max-width: 50rem; }
       .Portfolio .content .grid_two .card .Project_detail {
         background-color: #1e1e1e;
         margin-left: 12rem;
-        max-width: 56rem;
+        max-width: 50rem;
         height: 25rem;
         position: relative;
-        transition: all 0.4s; }
+        transition: all 0.4s;
+        display: block; }
         .Portfolio .content .grid_two .card .Project_detail .Project {
           font-size: 8rem;
           padding: 1rem;
@@ -308,7 +356,8 @@ body {
           padding: 1rem;
           color: #5e5e5e; }
         .Portfolio .content .grid_two .card .Project_detail:hover {
-          opacity: 100%; }
+          opacity: 100%;
+          display: block; }
 
 .port {
   opacity: 0; }

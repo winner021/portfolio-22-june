@@ -28,10 +28,7 @@ return(
                  </div>
                 
                </div>
-               <div className="map">
-                  <img src={p4} alt="" />
-               </div>
-
+             
            </div>
            
         </div>

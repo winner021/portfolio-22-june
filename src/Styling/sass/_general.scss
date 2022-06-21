@@ -1,14 +1,105 @@
 $primarycolor:rgb(202, 53, 53);
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-right: 0%;
+    padding-right: 0%;
+}
 html{
     font-size: 62.5%;
 }
 body{
     font-family: 'Archivo', sans-serif; 
+   
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+@media(max-width:79.81rem){
+
+
+    html{
+        font-size: 60%;
+    }
+
 }
+
+@media(max-width:75.81rem){
+
+
+    html{
+        font-size: 40%;
+    }
+
+}
+@media(max-width:52rem){
+
+
+    html{
+        font-size: 37%;
+    }
+
+}
+@media(max-width:47.81rem){
+
+
+    html{
+        font-size: 34%;
+    }
+
+}
+
+@media(max-width:44.81rem){
+
+
+    html{
+        font-size: 30%;
+    }
+
+}
+
+@media(max-width:40.12rem){
+
+
+    html{
+        font-size: 28%;
+    }
+
+}
+@media(max-width:37.12rem){
+
+
+    html{
+        font-size: 24%;
+    }
+
+}
+@media(max-width:32.125rem){
+
+
+    html{
+        font-size: 20%;
+    }
+
+}
+@media(max-width:25.81rem){
+
+
+    html{
+        font-size: 18%;
+    }
+
+}
+@media(max-width:23.31rem){
+
+
+    html{
+        font-size: 15%;
+
+    }
+
+}
+
+
