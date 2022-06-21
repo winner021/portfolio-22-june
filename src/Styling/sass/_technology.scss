@@ -63,3 +63,57 @@
     }
     
 }
+
+
+@media(max-width:37rem){
+
+
+    .technology_container{
+    
+
+        .content{
+            h1{
+                margin-bottom: 20rem;
+                padding-top: 20rem;
+                font-size: 10rem;
+               }
+                 
+          
+           .Content-container{
+               display: block;
+              
+               .img{
+               
+               
+               margin-left: 50%;
+               transform: translate(-50%,0);
+               margin-top: 10rem;
+               margin-bottom: 20rem;
+    
+               }
+    
+               .txt{
+                   margin-top: 12rem;
+                   margin-left:5rem;
+                   .grid{
+                       display: grid;
+                       grid-template-columns: 1fr 1fr 1fr;
+                       margin-bottom: 8rem;
+                       padding: 10rem;
+                       
+                       i{
+                           font-size:20rem;
+                           margin-right: 2rem;
+                           margin-left: 3rem;
+                           color: red;
+                       }
+
+                       
+                   }
+               }
+           }
+        }
+        
+    }
+
+}

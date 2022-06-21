@@ -8,6 +8,9 @@ const Technology=()=>{
        <div className="content">
            <h1>My Current Tech Stack</h1>
            <div className="Content-container">
+           <div className="img">
+                 <img src={technology} alt="image" />
+               </div>
                <div className="txt">
                  <div className="grid">
                      <div className="tech">
@@ -32,9 +35,7 @@ const Technology=()=>{
                      </div>
                  </div>
                </div>
-               <div className="img">
-                 <img src={technology} alt="image" />
-               </div>
+               
            </div>
        </div>
     
