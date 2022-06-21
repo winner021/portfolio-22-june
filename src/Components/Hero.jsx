@@ -20,6 +20,10 @@ const Hero=()=>{
 </video>
 
 <div class="content">
+<audio controls>
+  <source src={sound} type="audio/ogg" />
+
+</audio>
 <Header/>
 
 
