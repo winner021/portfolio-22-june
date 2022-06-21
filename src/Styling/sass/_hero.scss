@@ -117,3 +117,127 @@
 
 
 }
+@media(max-width:43rem){
+    .Hero{
+   
+        height: 90vh;
+        width: 100vw;
+       
+        .content{
+            position: relative;
+            overflow: hidden;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.292);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+            top: 0;
+            height: 90vh;
+          
+           
+            .content_container{
+                margin-top: 20rem;
+              
+                .main{
+                  
+                    .name_Container{
+                        color: rgb(202, 53, 53);
+                        display: flex;
+                        justify-content: space-between;
+                        margin-left: 12rem;
+                        width: auto;
+                        div{
+                            margin-right: 1rem;
+                        }
+                        span{
+                            
+                            font-size: 8rem;
+                            margin-top: 8rem;
+                            &:hover{
+                                animation: txtbounce 2s infinite;
+                            }
+                           
+                        }
+                    }
+    
+                }
+    
+                .txt{
+                    margin-top:10rem ;
+                    padding-right: 15rem;
+                    
+                    font-size: 6rem;
+                    color: rgb(202, 53, 53);
+                    border: 4px solid rgba(251, 3, 7, 0.703);
+                    display: inline-block;
+                    padding: 10rem;
+                    
+    
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+@media(max-width:37rem){
+    .Hero{
+   
+        height: 90vh;
+        width: 100vw;
+       
+        .content{
+            position: relative;
+            overflow: hidden;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.292);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+            top: 0;
+            height: 90vh;
+          
+           
+            .content_container{
+                margin-top: 20rem;
+              
+                .main{
+                   margin-left: 50%;
+                   transform: translate(-50%,-50%);
+                   margin-top: 60rem;
+                   
+                    .name_Container{
+                        color: rgb(202, 53, 53);
+                        display: flex;
+                        justify-content: space-between;
+                        margin-left: 12rem;
+                        width: auto;
+                        
+                        div{
+                            margin-right: 1rem;
+                        }
+                        span{
+                            
+                            font-size: 15rem;
+                            margin-top: rem;
+                            &:hover{
+                                animation: txtbounce 2s infinite;
+                            }
+                           
+                        }
+                    }
+    
+                }
+    
+                .txt{
+                  display: none;
+    
+                }
+            }
+        }
+    }
+
+}

@@ -135,6 +135,80 @@ body {
     bottom: 0;
     color: #ca3535; } }
 
+@media (max-width: 43rem) {
+  .Hero {
+    height: 90vh;
+    width: 100vw; }
+    .Hero .content {
+      position: relative;
+      overflow: hidden;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.292);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+      top: 0;
+      height: 90vh; }
+      .Hero .content .content_container {
+        margin-top: 20rem; }
+        .Hero .content .content_container .main .name_Container {
+          color: #ca3535;
+          display: flex;
+          justify-content: space-between;
+          margin-left: 12rem;
+          width: auto; }
+          .Hero .content .content_container .main .name_Container div {
+            margin-right: 1rem; }
+          .Hero .content .content_container .main .name_Container span {
+            font-size: 8rem;
+            margin-top: 8rem; }
+            .Hero .content .content_container .main .name_Container span:hover {
+              animation: txtbounce 2s infinite; }
+        .Hero .content .content_container .txt {
+          margin-top: 10rem;
+          padding-right: 15rem;
+          font-size: 6rem;
+          color: #ca3535;
+          border: 4px solid rgba(251, 3, 7, 0.703);
+          display: inline-block;
+          padding: 10rem; } }
+
+@media (max-width: 37rem) {
+  .Hero {
+    height: 90vh;
+    width: 100vw; }
+    .Hero .content {
+      position: relative;
+      overflow: hidden;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.292);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+      top: 0;
+      height: 90vh; }
+      .Hero .content .content_container {
+        margin-top: 20rem; }
+        .Hero .content .content_container .main {
+          margin-left: 50%;
+          transform: translate(-50%, -50%);
+          margin-top: 60rem; }
+          .Hero .content .content_container .main .name_Container {
+            color: #ca3535;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 12rem;
+            width: auto; }
+            .Hero .content .content_container .main .name_Container div {
+              margin-right: 1rem; }
+            .Hero .content .content_container .main .name_Container span {
+              font-size: 15rem;
+              margin-top: rem; }
+              .Hero .content .content_container .main .name_Container span:hover {
+                animation: txtbounce 2s infinite; }
+        .Hero .content .content_container .txt {
+          display: none; } }
+
 .header .Header_container {
   display: flex;
   justify-content: space-between;
@@ -282,6 +356,50 @@ body {
       padding-left: 3rem;
       line-height: 1.3;
       letter-spacing: 2px; }
+
+@media (max-width: 37em) {
+  .About_container {
+    background-color: black; }
+    .About_container h2 {
+      font-size: 5rem;
+      padding-top: 5rem;
+      display: block;
+      justify-content: center;
+      letter-spacing: 5px;
+      color: #bf3737; }
+    .About_container .About_cont {
+      display: block;
+      margin-top: -20rem; }
+      .About_container .About_cont .image {
+        margin-left: 14rem;
+        padding-top: 20rem; }
+        .About_container .About_cont .image img {
+          height: 80rem;
+          width: 80rem;
+          border-radius: 100%;
+          margin: 50%;
+          transform: translate(-50%, -50%);
+          margin-bottom: 2rem; }
+      .About_container .About_cont .para {
+        margin-top: -30rem;
+        padding-bottom: 10rem;
+        padding-right: 5rem; }
+        .About_container .About_cont .para h2 {
+          margin-top: 10rem;
+          max-width: 100vw;
+          margin-left: 10rem;
+          margin-bottom: 4rem;
+          text-align: center;
+          margin-top: -8rem;
+          margin-bottom: 6rem; }
+        .About_container .About_cont .para p {
+          color: #666666;
+          max-width: 100vw;
+          font-size: 2.2rem;
+          max-width: auto;
+          padding-left: 3rem;
+          line-height: 1.3;
+          letter-spacing: 2px; } }
 
 .Portfolio {
   background-color: black;
