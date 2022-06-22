@@ -34,7 +34,7 @@ const Header=()=>{
           
             <div className="link">
             <div className="projects">
-                <Link to="/projects">projects</Link>
+                <Link to="/portfolio">projects</Link>
                </div>
               <div className="blogs">
                <Link to="/projects">blogs</Link>

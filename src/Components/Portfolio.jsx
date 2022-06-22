@@ -29,7 +29,7 @@ return(
                    
                   
                </div>
-               </a>
+            </a>
                <a href="https://thecanarysongs.netlify.app">
                <div className="card">
                <div className="card_image">

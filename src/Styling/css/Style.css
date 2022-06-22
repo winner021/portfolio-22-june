@@ -227,22 +227,20 @@ body {
       padding: 1.5rem;
       border-radius: 50%;
       position: sticky;
-      transition: all 0.2s;
-      z-index: 10; }
+      transition: all 0.2s; }
     .header .Header_container .bars:hover {
       transform: scale(1.2); }
   .header .headers_link {
-    background-color: rgba(255, 0, 0, 0.656);
+    background-color: rgba(255, 0, 0, 0.797);
     position: fixed;
-    bottom: 100rem;
-    right: 40rem;
-    top: 0;
+    right: 8rem;
+    bottom: 0;
+    top: 20rem;
     left: 2rem;
     left: 0;
-    transition: all 0.5s;
-    max-width: 100vw; }
+    transition: all 0.5s; }
     .header .headers_link .link {
-      margin-top: 20rem; }
+      padding-top: 20rem; }
       .header .headers_link .link .blogs, .header .headers_link .link .projects, .header .headers_link .link .mail {
         display: flex;
         justify-content: center;
@@ -285,9 +283,7 @@ body {
 
 @media (max-width: 37rem) {
   .header .Header_container .logo img {
-    height: 10rem; }
-  .header .headers_link {
-    top: 20rem; } }
+    height: 10rem; } }
 
 .technology_container {
   background-color: #111111; }
