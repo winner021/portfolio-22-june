@@ -12,10 +12,12 @@ return(
         </h1>
         <div className="content">
             <div className="grid_one">
+            <a href="https://luxerio.netlify.app/">
                <div className="card">
                    <div className="card_image">
                        <img src={p1} alt="" />
                    </div>
+                  
                    <div className="Project_detail port ">
                        <div className="Project">
                           Luxerio
@@ -24,7 +26,11 @@ return(
                        Created with : React Js,React Router,Sass,redux,Redux-thunk,Google auth,Rest Api
                        </div>
                    </div>
+                   
+                  
                </div>
+               </a>
+               <a href="https://thecanarysongs.netlify.app">
                <div className="card">
                <div className="card_image">
                        <img src={p2} alt="" />
@@ -40,9 +46,12 @@ return(
                    
 
                </div>
+               </a>
+              
             </div>
             <div className="grid_two">
-            <div className="card">
+                <a href="https://pranjulsingh.netlify.app">
+                <div className="card">
                    <div className="card_image">
                        <img src={p3} alt="" />
                    </div>
@@ -55,6 +64,8 @@ return(
                        </div>
                    </div>
                </div>
+                </a>
+
              
             </div>
         </div>
