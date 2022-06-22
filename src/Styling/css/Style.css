@@ -225,7 +225,8 @@ body {
     padding: 1.5rem;
     border-radius: 50%;
     position: sticky;
-    transition: all 0.2s; }
+    transition: all 0.2s;
+    z-index: 20; }
   .header .Header_container .bars:hover {
     transform: scale(1.2); }
 
@@ -233,7 +234,7 @@ body {
   background-color: #c01717;
   position: fixed;
   bottom: 0;
-  right: 10rem;
+  right: 40rem;
   top: 0;
   left: 2rem;
   left: 0;
@@ -280,72 +281,6 @@ body {
   transform: translate(100%, -100%);
   border-radius: 100%;
   opacity: 0.5; }
-
-@media (max-width: 37rem) {
-  .header .Header_container {
-    display: flex;
-    justify-content: space-between;
-    top: 0;
-    left: 0; }
-    .header .Header_container .logo img {
-      height: 8rem;
-      margin: -1rem; }
-    .header .Header_container .bars .fa-bars {
-      color: black;
-      font-size: 3rem;
-      margin-top: 2rem;
-      background-color: #ea1414;
-      padding: 1.5rem;
-      border-radius: 50%;
-      position: sticky;
-      transition: all 0.2s; }
-    .header .Header_container .bars:hover {
-      transform: scale(1.2); }
-  .header .headers_link {
-    background-color: rgba(228, 1, 1, 0.66);
-    position: fixed;
-    bottom: 0;
-    right: 20rem;
-    top: 0;
-    left: 2rem;
-    left: 0;
-    transition: all 0.5s; }
-    .header .headers_link .link {
-      margin-top: 20rem; }
-      .header .headers_link .link .blogs, .header .headers_link .link .projects, .header .headers_link .link .mail {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 2rem; }
-        .header .headers_link .link .blogs a, .header .headers_link .link .projects a, .header .headers_link .link .mail a {
-          text-decoration: none;
-          text-transform: uppercase;
-          font-size: 2rem;
-          letter-spacing: 1px;
-          margin-bottom: 3rem;
-          color: black;
-          border-left: 2px solid black;
-          padding: 1.2rem 2.4rem;
-          position: relative;
-          overflow: hidden;
-          z-index: 1; }
-          .header .headers_link .link .blogs a:hover, .header .headers_link .link .projects a:hover, .header .headers_link .link .mail a:hover {
-            color: white;
-            border-color: red;
-            box-shadow: 0px 0px 5px 2px red;
-            border: 3px solid black; }
-          .header .headers_link .link .blogs a:hover::before, .header .headers_link .link .projects a:hover::before, .header .headers_link .link .mail a:hover::before {
-            transform: translateX(0);
-            z-index: -1; }
-        .header .headers_link .link .blogs a::before, .header .headers_link .link .projects a::before, .header .headers_link .link .mail a::before {
-          content: "";
-          height: 100%;
-          width: 100%;
-          background-color: black;
-          position: absolute;
-          top: 0;
-          left: 0;
-          transform: translateX(-102%);
-          transition: all  0.2s; } }
 
 .technology_container {
   background-color: #111111; }
