@@ -9,6 +9,7 @@ const Header=()=>{
   const [getHeader,setHeader]=useState("hide")
 
   const headerHandler=()=>{
+    console.log("fgjhgfjhfg")
    if(getHeader==="hide"){
      setHeader("show")
      }
@@ -34,7 +35,7 @@ const Header=()=>{
           
             <div className="link">
             <div className="projects">
-                <Link to="/portfolio">projects</Link>
+                <Link to="/projects">projects</Link>
                </div>
               <div className="blogs">
                <Link to="/projects">blogs</Link>

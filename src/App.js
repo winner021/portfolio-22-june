@@ -9,7 +9,7 @@ const App=()=>{
 
         <BrowserRouter>
         <Route to="/" component={Home}/> 
-        <Route to="/portfolio" component={Portfolio}/>     
+         
         </BrowserRouter> 
 
     )
