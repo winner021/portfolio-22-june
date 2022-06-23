@@ -25,12 +25,9 @@
       
         audio{
             position: fixed;
-            display: flex;
-            justify-content: center;
-            margin-left: 40%;
-            transform:rotate(270deg);
-            margin-top: -33rem;
-            top:20rem ;
+            transform: rotate(180deg);
+            margin-top: 20rem;
+            left: -26rem;
             
         }
         .content_container{
@@ -118,6 +115,96 @@
 
 
 }
+
+@media(max-width:80rem){
+    .Hero{
+        
+        .content{
+            audio{
+              
+                left: -28rem;
+            }
+        }
+    }
+}
+@media(max-width:75.81rem){
+    .Hero{
+        
+        .content{
+            audio{
+              
+                left: -40rem;
+            }
+        }
+    }
+}
+@media(max-width:52rem){
+    .Hero{
+        
+        .content{
+            audio{
+              
+                left: -45rem;
+            }
+        }
+    }
+}
+@media(max-width:47.75rem){
+    .Hero{
+        
+        .content{
+            audio{
+              
+                left: -48rem;
+            }
+        }
+    }
+}
+@media(max-width:44.75rem){
+    .Hero{
+        
+        .content{
+            audio{
+              
+                left: -55rem;
+            }
+        }
+    }
+}
+@media(max-width:40.18rem){
+    .Hero{
+        
+        .content{
+            audio{
+              
+                left: -58rem;
+            }
+        }
+    }
+}
+@media(max-width:37rem){
+    .Hero{
+        
+        .content{
+            audio{
+              
+                left: -70rem;
+            }
+        }
+    }
+}
+@media(max-width:32.0625rem){
+    .Hero{
+        
+        .content{
+            audio{
+              
+                left: -80rem;
+            }
+        }
+    }
+}
+
 @media(max-width:43rem){
     .Hero{
    
@@ -242,3 +329,4 @@
     }
 
 }
+

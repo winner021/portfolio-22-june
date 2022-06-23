@@ -9,22 +9,23 @@ import sound from "../assest/video/sound.mp3"
 
 const Hero=()=>{
 
-    useEffect(()=>{
-      
-
-    },[])
+    
     return(
         <div className='Hero'>
             <video autoPlay muted loop id="myVideo">
   <source src={video} type="video/mp4"/>
 </video>
 
+
 <div class="content">
 
 <Header/>
 
 
-
+<audio controls autoplay>
+  <source src={sound} type="audio/ogg"/>
+ 
+</audio>
 <div className="content_container">
 
 <div className="main">
