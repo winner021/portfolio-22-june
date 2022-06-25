@@ -35,13 +35,13 @@ const Header=()=>{
           
             <div className="link">
             <div className="projects">
-                <Link to="/projects">projects</Link>
+                <a href='https://canarysong.netlify.app/'>canary</a>
                </div>
               <div className="blogs">
-               <Link to="/projects">blogs</Link>
+               <Link href='https://luxerio.netlify.app/'>luxerio</Link>
                </div>
                <div className="mail">
-               <Link to="/projects">get in touch</Link>
+               <Link href='https://pranjulsinghportfolio.netlify.app/'>portfolio</Link>
                </div>
             </div>
          

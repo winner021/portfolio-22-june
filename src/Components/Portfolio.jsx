@@ -30,7 +30,7 @@ return(
                   
                </div>
             </a>
-               <a href="https://thecanarysongs.netlify.app">
+               <a href="https://canarysong.netlify.app/">
                <div className="card">
                <div className="card_image">
                        <img src={p2} alt="" />
@@ -50,7 +50,7 @@ return(
               
             </div>
             <div className="grid_two">
-                <a href="https://pranjulsingh.netlify.app">
+                <a href="https://pranjulsinghportfolio.netlify.app/">
                 <div className="card">
                    <div className="card_image">
                        <img src={p3} alt="" />
