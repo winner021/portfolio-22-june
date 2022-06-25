@@ -12,9 +12,12 @@ return(
            <div className="grid">
                <div className="social">
                    <div className="icon">
-                   <i class="fa-brands fa-github"></i>
-                   <i class="fa-brands fa-linkedin"></i>
-                   <i class="fa-brands fa-instagram"></i>
+                    <a href="https://github.com/winner021">
+                    <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/pranjul-singh-6b9a31191/" style={{textdecoraion:"none"}}>  <i class="fa-brands fa-linkedin"></i></a>
+                   
+                 
                    </div>
                   
                </div>

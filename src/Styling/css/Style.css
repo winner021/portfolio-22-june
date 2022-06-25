@@ -160,18 +160,9 @@ body {
   .Hero .content audio {
     left: -70rem; } }
 
-@media (max-width: 33rem) {
+@media (max-width: 32.0625rem) {
   .Hero .content audio {
     left: -80rem; } }
-    @media (max-width: 30rem) {
-      .Hero .content audio {
-        left: -80rem; } }
-        @media (max-width: 25.75rem) {
-          .Hero .content audio {
-            left: -90rem; } }
-            @media (max-width: 24.187rem) {
-              .Hero .content audio {
-                left: -110rem; } }
 
 @media (max-width: 43rem) {
   .Hero {
@@ -495,30 +486,32 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 4rem; }
-    .Portfolio .content .grid_one .card .card_image {
-      position: absolute; }
-      .Portfolio .content .grid_one .card .card_image img {
-        height: 27rem;
+    .Portfolio .content .grid_one a {
+      text-decoration: none; }
+      .Portfolio .content .grid_one a .card .card_image {
+        position: absolute; }
+        .Portfolio .content .grid_one a .card .card_image img {
+          height: 27rem;
+          margin-left: 12rem;
+          max-width: 50rem; }
+      .Portfolio .content .grid_one a .card .Project_detail {
+        background-color: #1e1e1e;
         margin-left: 12rem;
-        max-width: 50rem; }
-    .Portfolio .content .grid_one .card .Project_detail {
-      background-color: #1e1e1e;
-      margin-left: 12rem;
-      max-width: 50rem;
-      height: 27rem;
-      position: relative;
-      transition: all 0.4s; }
-      .Portfolio .content .grid_one .card .Project_detail .Project {
-        font-size: 8rem;
-        padding: 1rem;
-        color: red;
-        margin-bottom: 4rem; }
-      .Portfolio .content .grid_one .card .Project_detail .tech {
-        font-size: 1.8rem;
-        padding: 1rem;
-        color: #5e5e5e; }
-      .Portfolio .content .grid_one .card .Project_detail:hover {
-        opacity: 100%; }
+        max-width: 50rem;
+        height: 27rem;
+        position: relative;
+        transition: all 0.4s; }
+        .Portfolio .content .grid_one a .card .Project_detail .Project {
+          font-size: 8rem;
+          padding: 1rem;
+          color: red;
+          margin-bottom: 4rem; }
+        .Portfolio .content .grid_one a .card .Project_detail .tech {
+          font-size: 1.8rem;
+          padding: 1rem;
+          color: #5e5e5e; }
+        .Portfolio .content .grid_one a .card .Project_detail:hover {
+          opacity: 100%; }
   .Portfolio .content .grid_two {
     display: grid;
     grid-template-columns: 1fr;
@@ -526,35 +519,37 @@ body {
     grid-template-columns: 1fr 1fr;
     margin-top: 4rem;
     background-color: black; }
-    .Portfolio .content .grid_two .card {
-      margin-bottom: 8rem;
-      margin-top: 2rem; }
-      .Portfolio .content .grid_two .card .card_image {
-        position: absolute; }
-        .Portfolio .content .grid_two .card .card_image img {
-          height: 27rem;
+    .Portfolio .content .grid_two a {
+      text-decoration: none; }
+      .Portfolio .content .grid_two a .card {
+        margin-bottom: 8rem;
+        margin-top: 2rem; }
+        .Portfolio .content .grid_two a .card .card_image {
+          position: absolute; }
+          .Portfolio .content .grid_two a .card .card_image img {
+            height: 27rem;
+            margin-left: 12rem;
+            max-width: 50rem; }
+        .Portfolio .content .grid_two a .card .Project_detail {
+          background-color: #1e1e1e;
           margin-left: 12rem;
-          max-width: 50rem; }
-      .Portfolio .content .grid_two .card .Project_detail {
-        background-color: #1e1e1e;
-        margin-left: 12rem;
-        max-width: 50rem;
-        height: 25rem;
-        position: relative;
-        transition: all 0.4s;
-        display: block; }
-        .Portfolio .content .grid_two .card .Project_detail .Project {
-          font-size: 8rem;
-          padding: 1rem;
-          color: red;
-          margin-bottom: 4rem; }
-        .Portfolio .content .grid_two .card .Project_detail .tech {
-          font-size: 1.8rem;
-          padding: 1rem;
-          color: #5e5e5e; }
-        .Portfolio .content .grid_two .card .Project_detail:hover {
-          opacity: 100%;
+          max-width: 50rem;
+          height: 25rem;
+          position: relative;
+          transition: all 0.4s;
           display: block; }
+          .Portfolio .content .grid_two a .card .Project_detail .Project {
+            font-size: 8rem;
+            padding: 1rem;
+            color: red;
+            margin-bottom: 4rem; }
+          .Portfolio .content .grid_two a .card .Project_detail .tech {
+            font-size: 1.8rem;
+            padding: 1rem;
+            color: #5e5e5e; }
+          .Portfolio .content .grid_two a .card .Project_detail:hover {
+            opacity: 100%;
+            display: block; }
 
 .port {
   opacity: 0; }

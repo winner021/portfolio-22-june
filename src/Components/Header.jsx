@@ -38,10 +38,10 @@ const Header=()=>{
                 <a href='https://canarysong.netlify.app/'>canary</a>
                </div>
               <div className="blogs">
-               <Link href='https://luxerio.netlify.app/'>luxerio</Link>
+               <a href='https://luxerio.netlify.app/'>luxerio</a>
                </div>
                <div className="mail">
-               <Link href='https://pranjulsinghportfolio.netlify.app/'>portfolio</Link>
+               <a href='https://pranjulsinghportfolio.netlify.app/'>portfolio</a>
                </div>
             </div>
          

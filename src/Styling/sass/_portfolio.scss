@@ -17,41 +17,46 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             margin-top: 4rem;
-            .card{
-                .card_image{
-                    img{
-                        height: 27rem;
+            a{
+                 text-decoration: none;
+                .card{
+                    .card_image{
+                        img{
+                            height: 27rem;
+                            margin-left: 12rem;
+                            max-width: 50rem;
+                        }
+                        position: absolute;
+                    }
+                    .Project_detail{
+                        background-color: rgb(30, 30, 30);
                         margin-left: 12rem;
                         max-width: 50rem;
+                        height: 27rem;
+                        position: relative;
+                        transition: all 0.4s;
+                        .Project{
+                            font-size: 8rem;
+                            padding: 1rem;
+                            color: red;
+                            margin-bottom: 4rem;
+    
+    
+                        }
+                        .tech{
+                            font-size: 1.8rem;
+                            padding: 1rem;
+                            color: rgb(94, 94, 94);
+                        }
+                        &:hover{
+                           opacity: 100%;
+                        }
+    
                     }
-                    position: absolute;
                 }
-                .Project_detail{
-                    background-color: rgb(30, 30, 30);
-                    margin-left: 12rem;
-                    max-width: 50rem;
-                    height: 27rem;
-                    position: relative;
-                    transition: all 0.4s;
-                    .Project{
-                        font-size: 8rem;
-                        padding: 1rem;
-                        color: red;
-                        margin-bottom: 4rem;
 
-
-                    }
-                    .tech{
-                        font-size: 1.8rem;
-                        padding: 1rem;
-                        color: rgb(94, 94, 94);
-                    }
-                    &:hover{
-                       opacity: 100%;
-                    }
-
-                }
             }
+            
 
 
         }
@@ -62,6 +67,8 @@
             grid-template-columns: 1fr 1fr;
             margin-top: 4rem;
            background-color: black;
+           a{
+            text-decoration: none;
             .card{
                 margin-bottom: 8rem;
                 margin-top: 2rem;
@@ -104,6 +111,9 @@
                 }
                
             }
+
+           }
+           
         }
     }
 }
